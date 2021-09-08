@@ -187,8 +187,8 @@ font-variation-settings: 'opsz' 24;
 
 ## Resources
 
-- [Wakamai Fondue](https://wakamaifondue.com/) by Roel Nieskens
-- [Boiling eggs and fixing the variable font inheritance problem](https://pixelambacht.nl/2019/fixing-variable-font-inheritance/) by Roel Nieskens
+- [Wakamai Fondue](https://wakamaifondue.com) by Roel Nieskens
+- [Boiling eggs and fixing the variable font inheritance problem](https://pixelambacht.nl/2019/fixing-variable-font-inheritance) by Roel Nieskens
 - [Typography Tips](https://rwt.io/typography-tips) by Jason Pamental
-- [v-fonts.com](https://v-fonts.com/)
-- MDN Web Docs (duh)
+- [v-fonts.com](https://v-fonts.com)
+- [MDN Web Docs](https://developer.mozilla.org) (duh)
