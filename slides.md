@@ -1,23 +1,18 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80
-# apply any windi css classes to the current slide
-class: "text-center"
-# https://sli.dev/custom/highlighters.html
-# highlighter: shiki
-# show line numbers in code blocks
+theme: ./theme
+background: >-
+  https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80
+class: text-center
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Webfont Wizardry
+title: Webfont Wizardry
 ---
 
 # Webfont Wizardry
 
 Darshak Parikh
+
 
 ---
 layout: center
@@ -119,10 +114,10 @@ font-variant-numeric: tabular-nums;
 
 ## Figures
 
-|               |`proportional-nums`      |`tabular-nums`           |
-|---------------|-------------------------|-------------------------|
-|`lining-nums`  |uneven width, even height|even width and height    |
-|`oldstyle-nums`|uneven width and height  |even width, uneven height|
+|               |`tabular-nums`           |`proportional-nums`        |
+|---------------|-------------------------|---------------------------|
+|`lining-nums`  |even width, even height  |uneven width, even height  |
+|`oldstyle-nums`|even width, uneven height|uneven width, unveen height|
 
 ---
 layout: center
@@ -134,17 +129,51 @@ layout: center
 
 ## Variable weight
 
-Mephisto
-Literata
-`font-weight: 666;`
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-weight: 600;">Grindelwald</p>
+
+```css
+font-family: 'Literata';
+font-weight:  600;
+```
+
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-weight: 666;">Grindelwald</p>
+
+```css
+font-family: 'Literata';
+font-weight:  666;
+```
+
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-weight: 700;">Grindelwald</p>
+
+```css
+font-family: 'Literata';
+font-weight:  700;
+```
 
 ---
 
 ## Optical size
 
-The Watcher
-Literata
-`font-size: 24px;`
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-optical-sizing: auto;">Dumbledore</p>
+
+```css
+font-family: 'Literata';
+font-optical-sizing: auto;
+```
+
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-optical-sizing: none;">Dumbledore</p>
+
+```css
+font-family: 'Literata';
+font-optical-sizing: none;
+```
+
+<p style="margin: 2rem 0; font-family: 'Literata'; font-size: 4rem; font-variation-settings: 'opsz' 24;">Dumbledore</p>
+
+```css
+font-family: 'Literata';
+font-variation-settings: 'opsz' 24;
+```
 
 ---
 
@@ -158,6 +187,8 @@ Literata
 
 ## Resources
 
-- Wakamai Fondue
-- Scrambled Eggs
-- Axis Praxis
+- [Wakamai Fondue](https://wakamaifondue.com/) by Roel Nieskens
+- [Boiling eggs and fixing the variable font inheritance problem](https://pixelambacht.nl/2019/fixing-variable-font-inheritance/) by Roel Nieskens
+- [Typography Tips](https://rwt.io/typography-tips) by Jason Pamental
+- [v-fonts.com](https://v-fonts.com/)
+- MDN Web Docs (duh)
