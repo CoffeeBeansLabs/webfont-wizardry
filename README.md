@@ -1,4 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Webfont Wizardry
+
+A talk about how you can bring out the magic hidden in your font files
+
+To run the slideshow effectively, you need Vollkorn, Fira Code, Literata Variable and Recursive Variable fonts installed locally. Cannot load them from Google Fonts, because it strips down some OpenType features used here.
 
 To start the slide show:
 
