@@ -17,8 +17,8 @@
     "defaults": {
       "fonts": {
         "mono": "PT Mono",
-        "sans": "PT Serif",
-        "serif": "PT Serif"
+        "sans": "Cormorant",
+        "serif": "Cormorant"
       }
     }
   },
